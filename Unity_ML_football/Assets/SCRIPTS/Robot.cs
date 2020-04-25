@@ -40,7 +40,8 @@ public class Robot : Agent
         rigBall.position = posBall;
 
         //足球尚未進入球門
-        rigBall.complete = false;
+        //rigBall.complete = false;
+        Ball.complete = false;
     }
 
     /// <summary>
